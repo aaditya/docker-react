@@ -12,14 +12,14 @@ function App() {
         className = "App-logo"
         alt = "logo" / >
         <
-        p > Hiiddddddd. < /p>{" "} <
+        p > changes. < /p>{" "} <
         a className = "App-link"
         href = "https://reactjs.org"
         target = "_blank"
         rel = "noopener noreferrer" >
         Learn React { " " } <
-        /a>{" "} <
-        /header>{" "} <
+        /a>{" "} < /
+        header > { " " } <
         /div>
     );
 }
