@@ -6,4 +6,4 @@ before_install:
   - docker build -t rajatk-31/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run rajatk-31/docker-react npm run test -- --coverage
+  - docker run -e CI=true rajatk-31/docker-react npm run test
